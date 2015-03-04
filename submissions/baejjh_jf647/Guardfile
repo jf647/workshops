@@ -1,5 +1,6 @@
 # prevent dropping into pry when nothing is happening
 interactor :off
+notification :terminal_title
 
 guard :rspec, all_on_start: true, cmd: 'bundle exec rescue rspec' do
   watch(%r{^spec/(.+)_spec\.rb$})
