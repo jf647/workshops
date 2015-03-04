@@ -21,4 +21,5 @@ RSpec.describe GOL do
       expect(game.num_alive_cells).to be_zero
     end
   end
+  
 end
