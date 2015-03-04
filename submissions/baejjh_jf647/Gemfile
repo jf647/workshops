@@ -1,0 +1,10 @@
+source 'https://rubygems.org/'
+
+gem 'rake'
+gem 'rspec'
+gem 'guard'
+gem 'guard-rspec'
+gem 'ruby_gntp'
+gem 'pry-rescue'
+gem 'pry-stack_explorer'
+gem 'pry-byebug'

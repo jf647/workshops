@@ -1,0 +1,12 @@
+AllCops:
+  Exclude:
+    - '**/Gemfile'
+    - '**/*.gemspec'
+
+Style/RegexpLiteral:
+  Exclude:
+    - '**/Guardfile'
+
+Style/Documentation:
+  Exclude:
+    - 'spec/**/*.rb'
